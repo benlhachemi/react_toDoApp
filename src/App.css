@@ -1,0 +1,32 @@
+body{
+  text-align: center;
+}
+
+.App{
+  padding:25px
+}
+
+.card-header{
+  justify-content: center;
+}
+
+.Tasks i{
+  font-size: 20px;
+  margin:5px;
+  cursor: pointer;
+}
+
+.Tasks i:hover{
+  transform: scale(1.05);
+  color:rgba(224, 119, 49, 0.74)
+}
+
+.Tasks .card{
+  color:white!important;
+  background-size:cover;
+  box-shadow: 9px 7px 2px #000000;
+}
+
+.Tasks .card-header{
+  background: rgba(0,0,0,0.6);
+}
